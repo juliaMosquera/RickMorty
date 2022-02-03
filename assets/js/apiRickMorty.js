@@ -19,9 +19,9 @@ const fillData = (data) => {
 
     html += '<div class="col">';
     html += '<div class="card h-100">';
-    html += `<img src="${p.image}" class="card-img-top" alt="...">`;
-    html += '<div class="card-body">';
-    html += `<h5 class="card-title">${p.name}</h5>`;
+    html += `<img src="${p.image}" class="img-fluid img-thumbnail" alt="...">`;
+    html += '<div class="card-body bg-black">';
+    html += `<h5 class="border bg-success p-3">${p.name}</h5>`;
     html += "</div>";
     html += "</div>";
     html += "</div>";
